@@ -1,0 +1,90 @@
+@charset "utf-8";
+@media screen and (max-width: 767px) {
+  #header nav li {
+    padding: 0px 1.4%;
+  }
+  #header nav li a {
+    font-size: 12px;
+    height: 60px;
+    line-height: 60px;
+  }
+  #header nav li a img {
+    width: 60px;
+  }
+  #content {
+    min-height: 0;
+  }
+  #iconsListing {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 40px;
+  }
+  #iconsListing ul li {
+    font-size: 13px;
+    margin-bottom: 40px;
+  }
+  #iconsListing ul li span {
+    width: 60px;
+    height: 60px;
+  }
+  #iconsListing ul li span img {
+    max-width: 40%;
+    max-height: 40%;
+  }
+  #teamListing {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #teamListing ul li {
+    font-size: 13px;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+  }
+  #teamListing ul li h3 {
+    font-size: 16px;
+  }
+  #teamListing ul li p {
+    font-size: 12px;
+  }
+  #downloadsIn {
+    padding: 0px 15px;
+  }
+  #downloadsInLeft {
+    padding-top: 0;
+    float: none;
+    width: auto;
+    padding-bottom: 20px;
+  }
+  #downloadsInLeft h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+  #downloadsInLeft p {
+    text-align: center;
+    font-size: 14px;
+  }
+  #downloadsInMid {
+    float: none;
+    margin: auto;
+  }
+  #downloadsInRight {
+    width: auto;
+    float: none;
+    padding-top: 40px;
+  }
+  #downloadsInRight p {
+    font-size: 14px;
+  }
+  #downloadsInRight a {
+    margin: auto;
+  }
+  #faqsListing {
+    margin: 38px 15px 0;
+  }
+  #faqsListing li h3 {
+    font-size: 16px;
+  }
+  #footer ul li {
+    margin: 0 2%;
+  }
+}
